@@ -1,0 +1,20 @@
+// Base Colors
+$colors: (
+	white: #ffffff,
+	black: #000000,
+	grey-dark: #292929,
+	grey-light-bg:#dcdcde,
+	grey-light: #f0f0f0,
+	orange-dp: #FF3B05,
+	red-alert: #E30613,
+	blue-light: #007CBA
+);
+
+$white: map-get($colors, white);
+$black: map-get($colors, black);
+$grey-dark: map-get($colors, grey-dark);
+$grey-light: map-get($colors, grey-light);
+$grey-light-bg: map-get($colors, grey-light-bg);
+$orange-dp: map-get($colors, orange-dp);
+$red-alert: map-get($colors, red-alert);
+$blue-light: map-get($colors, blue-light);

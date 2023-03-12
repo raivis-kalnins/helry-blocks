@@ -1,0 +1,50 @@
+{
+	"apiVersion": 2,
+	"name": "dpwpblocks/event-details",
+	"title": "DP Event",
+	"category": "design",
+	"description": "Event details - date, title, duration",
+	"textdomain": "default",
+	"attributes": {
+		"pretitle": {
+			"type": "string",
+			"source": "html",
+			"selector": "pre"
+		},
+		"title": {
+			"type": "string",
+			"source": "html",
+			"selector": "h2"
+		},
+        "duration": {
+			"type": "string",
+			"source": "html",
+			"selector": "span"
+		},		
+		"pretitleColor": {
+			"type": "string"
+		},
+		"titleColor": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		},
+		"contentStyle": {
+			"type": "string",
+			"default": ""
+		},
+		"columnAlign": {
+			"type": "string",
+			"default": "text-left"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"reusable": false,
+		"html": false,
+		"spacing": {
+			"padding": true
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"apiVersion": 2,
+	"name": "dpwpblocks/cta-card",
+	"title": "DP CTA-Card",
+	"category": "design",
+	"description": "Call to action card",
+	"textdomain": "default",
+	"attributes": {
+		"url": {
+			"type": "string",
+			"default": ""
+		},
+		"linkTarget": {
+			"type": "string",
+			"default": "_self"
+		},
+		"altText": {
+			"type": "string",
+			"default": ""
+		},
+		"btnText": {
+			"type": "string",
+			"default": "Learn more"
+		},
+		"mediaId": {
+			"type": "number",
+			"default": 0
+		},
+		"mediaUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"title": {
+			"type": "string",
+			"source": "html",
+			"selector": "h3"
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "black"
+		},
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"contentStyle": {
+			"type": "string",
+			"default": ""
+		},
+		"columnAlign": {
+			"type": "string",
+			"default": "text-left"
+		},
+		"btnOnOff": {
+			"type": "string",
+			"default": "btnoff"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"reusable": false,
+		"html": false,
+		"spacing": {
+			"padding": true
+		}
+	}
+}

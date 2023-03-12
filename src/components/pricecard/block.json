@@ -1,0 +1,37 @@
+{
+	"apiVersion": 2,
+	"name": "dpwpblocks/pricecard",
+	"title": "DP Price-Card",
+	"category": "design",
+	"description": "A display pricing information.",
+	"textdomain": "default",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"source": "html",
+			"selector": "h3"
+		},
+		"popular": {
+			"type": "boolean",
+			"default": false
+		},
+		"price": {
+			"type":"string",
+			"source":"text",
+			"selector": ".price"
+		},
+		"features": {
+            "type": "array",
+            "source": "children",
+            "selector": "ul"
+        }
+	},
+	"supports": {
+		"anchor": true,
+		"reusable": false,
+		"html": false,
+		"spacing": {
+			"padding": true
+		}
+	}
+}

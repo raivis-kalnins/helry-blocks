@@ -1,0 +1,24 @@
+{
+  "name": "wp-blocks",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start src/blocks.js src/admin/scss/admin.scss src/admin/js/admin.js src/public/scss/public.scss src/public/js/public.js --output-path=dist/",
+    "build": "wp-scripts build src/blocks.js src/admin/scss/admin.scss src/admin/js/admin.js src/public/scss/public.scss src/public/js/public.js --output-path=dist/"    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "targets": {
+    "default": {
+      "distDir": "./dist"
+    }
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^10.4.0",
+    "@wordpress/scripts": "^24.5.0",
+    "@types/classnames": "^2.3.1",
+    "@wordpress/icons": "^7.0"
+  }
+}

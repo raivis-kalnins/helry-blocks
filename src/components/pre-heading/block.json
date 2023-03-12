@@ -1,0 +1,53 @@
+{
+	"apiVersion": 2,
+	"name": "dpwpblocks/pre-heading",
+	"title": "DP PreHeader",
+	"category": "design",
+	"description": "Pre header and header.",
+	"textdomain": "default",
+	"attributes": {
+		"mediaId": {
+			"type": "number",
+			"default": 0
+		},
+		"mediaUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"pretitle": {
+			"type": "string",
+			"source": "html",
+			"selector": "pre"
+		},
+		"title": {
+			"type": "string",
+			"source": "html",
+			"selector": "h2"
+		},		
+		"pretitleColor": {
+			"type": "string"
+		},
+		"titleColor": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		},
+		"contentStyle": {
+			"type": "string",
+			"default": ""
+		},
+		"columnAlign": {
+			"type": "string",
+			"default": "text-left"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"reusable": false,
+		"html": false,
+		"spacing": {
+			"padding": true
+		}
+	}
+}

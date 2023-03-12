@@ -1,0 +1,17 @@
+.wp-block-file a:first-child {
+	color: $grey-dark;
+	padding-left: 30px;
+	position: relative;
+
+	&::before {
+		content: "\f019";
+		font-family: "Font Awesome 5 Free";
+		color: $orange-dp;
+		font-weight: 900;
+		position: absolute;
+		margin: 5px -30px;
+		width: 20px;
+		height: 30px;
+		mask-size: 100% 100%;
+	}
+}

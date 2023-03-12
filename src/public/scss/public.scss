@@ -1,0 +1,22 @@
+/* Custom Public Block styling */
+@import "general";
+@import "blocks/all";
+
+body {
+
+	.wrapper {
+
+		.wp-block-dpwpblocks {
+			
+			&-central-text-icon {
+
+				.text {
+					
+					&-brightblue {
+						color: blue;
+					}
+				}
+			}
+		}
+	}
+}
